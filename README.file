@@ -1,0 +1,46 @@
+ Quiz Application with Gamification
+ 
+  A web-based quiz application with engaging gamification features,
+  fetching quiz data from an API, and presenting it through an intuitive and user-friendly interface.
+
+  Objective-
+
+  The primary goal of this project is to create a functional and engaging quiz application with the following features
+  Start Quiz functionality.
+  Multiple-choice questions.
+  Summary of results upon completion (total points scored).
+  Bonus: Clean, intuitive design and gamification elements.
+
+  *Features
+
+  1. Data Integration
+   -Fetch quiz data from the API endpoint: `https://api.jsonserve.com/Uw5CrX`.
+   (Here i added localquiz data because API endpoint :`https://api.jsonserve.com/Uw5CrX`failed to load data) 
+   - Handle errors gracefully (e.g., display a "Failed to load data" message if the API is unreachable)
+  2. Core Functionality
+   - Start a quiz session.
+   - Display multiple-choice questions dynamically.
+   - Track the user’s answers and calculate their score.
+   - Show a detailed results summary at the end of the quiz.
+   3. Gamification Features (Optional)**
+   - Scoring system.
+   - Dynamic feedback during the quiz (e.g., notifications for correct/incorrect answers).
+   - Progress tracker
+
+   *Technical Stack
+   - Framework: 
+     React.js
+   - Styling:
+     CSS or Tailwind CSS (Optional)
+    - API Integration
+     Fetch API or Axios
+    
+  *Tooling- Node.js, npm
+    
+  *How to Use
+    Start Quiz: Click the "Start Quiz" button to begin.
+    Answer Questions: Select one option for each question.
+    Submit: After completing all questions, the results summary is displayed, showing:
+    Total points scored.
+    Correct and incorrect answers.
+    Play Again: Restart the quiz for a new attempt.
